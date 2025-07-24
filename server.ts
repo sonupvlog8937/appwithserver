@@ -5,6 +5,7 @@ import authRoutes from './routes/authRoutes';
 import productRoutes from './routes/productRoutes';
 import categoryRoutes from './routes/categoryRoutes';
 import orderRoutes from './routes/orderRoutes';
+import cors from 'cors';
 // import userRoutes from './routes/userRoutes'; // You can add this for admin user management
 import { notFound, errorHandler } from './middlewares/errorHandler';
 

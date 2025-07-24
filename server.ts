@@ -17,8 +17,8 @@ const app: Application = express();
 const corsOptions = {
     origin: [
         'http://localhost:3000', // Your React dashboard development server
-        'http://localhost:19006', // Your React Native Expo web development server (if you use web)
-        'https://your-deployed-dashboard-url.com', // Replace with your actual deployed dashboard URL
+        'http://localhost:8081', // Your React Native Expo web development server (if you use web)
+        'https://appwithdashboard.vercel.app', // Replace with your actual deployed dashboard URL
         'https://your-deployed-client-url.com' // Replace with your actual deployed React Native web client URL
         // You might also need to add your Render frontend URL if it's different
     ],
